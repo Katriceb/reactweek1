@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+}
+
+.flex-container {
+    display:flex;
+}
+.flex-container > div{
+    margin:10px;
+    padding:20px;
+    font-size: 30px;
+    flex-basis: 60%;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-rows: 15vw 15vw;
+    color:white;
+    justify-items: stretch;
+    justify-content: center;
+}
+
+.averageRating{
+    display: grid;
+    background-color: grey;
+    font-weight: 100;
+    font-size: small;
+    list-style-type: none;
+    margin:0;
+}
+
+.sidebar {
+    background-color: grey;
+    font-weight: 100;
+    font-size: small;
+    list-style-type: none;
+    margin:0;
+}
+
+ .Reviews {
+    background-color: grey;
+    font-weight: 100;
+    font-size: small;
+ }
+ .sentimentAnalysis {
+    background-color:grey;
+    font-weight: 100;
+    font-size: small;
+ }
+ .averagerRating {
+    background-color: grey;
+    font-weight: 100;
+    font-size: small;
+    
+
+
+ }
+ .WebsiteVisitors{
+    background-color: grey;
+    font-weight: 100;
+    font-size: small;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-rows: 15vw 15vw;
+ }
