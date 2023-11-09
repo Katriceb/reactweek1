@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import  AverageRating from './components/AverageRating'
+import  AverageRating from './components/averageRating'
 import Sidebar from './components/Sidebar' 
 import Reviews from './components/Reviews'
-import SentimentAnalysis from './components/SentimentAnalysis' 
-import  WebsiteVisitors from './components/WebsiteVisitors' 
+import SentimentAnalysis from './components/sentimentAnalysis' 
+import  WebsiteVisitors from './components/websiteVisitors' 
 
 import './styles.css'
 
@@ -15,13 +15,14 @@ function App() {
 
   return (
     
-      <div>
-       <div className = "flex-container"></div>
-     <div> <Sidebar /> </div>
-     <div> <Reviews /> </div>
-      <div><SentimentAnalysis /></div>
-     <div><WebsiteVisitors/></div>
-     <div><AverageRating/></div>
+      
+       <div className = "flex-container">
+    <Sidebar />  
+      <Reviews Reviews= '1,281' /> 
+     <AverageRating averaRating ='1,281'/>
+   <SentimentAnalysis sentmentAnalysis ='960' />
+     <WebsiteVisitors websiteVisitors='821'/>
+    
     
 
         

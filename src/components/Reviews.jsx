@@ -4,7 +4,7 @@ function Reviews() {
   return (
     <div className= "Reviews">
       <ui>Reviews</ui>
-      <ui>821</ui>
+      <ui>1,281</ui>
       </div>
   )
 }
